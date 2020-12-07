@@ -4,6 +4,7 @@ import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
 const INITIAL_STATE = { movieCategory: '' };
+console.log('asd')
 
 class App extends React.Component {
   state = { ...INITIAL_STATE };
