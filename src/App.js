@@ -3,10 +3,12 @@ import Container from './Container';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
-const INITIAL_STATE = { movieCategory: '' };
+const INITIAL_STATE1 = { movieCategory: '' };
+console.log('asd')
+console.log('Hello')
 
 class App extends React.Component {
-  state = { ...INITIAL_STATE };
+  state = { ...INITIAL_STATE1 };
 
   setMovieCategory = movieCategory => {
     this.setState(movieCategory);
